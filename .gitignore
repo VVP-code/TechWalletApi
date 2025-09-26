@@ -1,0 +1,33 @@
+# Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.env
+venv/
+
+# Django
+*.log
+*.sqlite3
+/staticfiles/
+/media/
+
+# Migrations (оставляем сами файлы, игнорируем только кэш)
+**/migrations/__pycache__/
+
+# Docker
+docker-compose.override.yml
+**/docker-compose.override.yml
+
+# IDE
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor swap files
+*.swp
+.env
